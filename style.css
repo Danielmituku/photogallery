@@ -1,0 +1,62 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+  padding: 0em 5em 0.5em 0.2em;
+}
+
+.navigation {
+  padding: 1.5em 0 0 3em;
+}
+
+.nav-item {
+  padding-top: 1.5em;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.card {
+  height: fit-content;
+  padding: 5px;
+  margin: 10px;
+}
+
+.contact-content {
+  text-align: center;
+}
+
+.footer {
+  background-color: grey;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.list-inline-item {
+  font-size: 20px;
+}
+
+.footer-links li {
+  padding: 7px;
+}
+
+.about-us-content {
+  padding: 5em;
+  justify-content: center;
+}
+
+.nav-btn {
+  margin-right: 10px;
+}
