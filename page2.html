@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="camera2.svg" />
+    <title>Public Gallery</title>
+  </head>
+  <body>
+    <ul class="nav nav-pills danger navigation" id="myTab" role="tablist">
+      <h1 class="title">Public Gallery</h1>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link active btn btn-outline bg-dark nav-btn"
+          id="home-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#home"
+          type="button"
+          role="tab"
+          aria-controls="home"
+          aria-selected="true"
+        >
+          Photos
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link btn btn-outline bg-dark nav-btn text-light"
+          id="profile-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#profile"
+          type="button"
+          role="tab"
+          aria-controls="profile"
+          aria-selected="false"
+        >
+          About us
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link btn btn-outline bg-dark nav-btn text-light"
+          id="contact-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#contact"
+          type="button"
+          role="tab"
+          aria-controls="contact"
+          aria-selected="false"
+        >
+          Contact
+        </button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div
+        class="tab-pane fade show active"
+        id="home"
+        role="tabpanel"
+        aria-labelledby="home-tab"
+      >
+        <div class="main-section">
+          <div>
+            <div class="card" style="width: 18rem">
+              <img src="images/8.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">June 13, 2021</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="images/9.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">June 13, 2021</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="images/10.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">May 9, 2017</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="card" style="width: 18rem">
+              <img src="images/11.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">June, 2021</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="images/12.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">June, 2021</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="images/13.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">May 9, 2017</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="card" style="width: 18rem">
+              <img src="images/14.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">May 17, 2021</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="images/15.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">May 17, 2021</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="images/7.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">May 9, 2017</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="card" style="width: 18rem">
+              <img
+                src="images/pexels-maria-orlova-4947416.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">May 9, 2017</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="images/4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">May 9, 2017</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="images/12.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">May 9, 2017</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page-nav">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item">
+                <a
+                  class="page-link bg-dark text-light"
+                  href="index.html"
+                  aria-label="Previous"
+                >
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link bg-dark text-light" href="index.html">1</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link bg-dark text-light" href="page2.html">2</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link bg-dark text-light" href="#">3</a>
+              </li>
+              <li class="page-item">
+                <a
+                  class="page-link bg-dark text-light"
+                  href="page2.html"
+                  aria-label="Next"
+                >
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="profile"
+        role="tabpanel"
+        aria-labelledby="profile-tab"
+      >
+        <h2 style="text-align: center">About us</h2>
+        <p class="about-us-content">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse et
+          eligendi nobis facere, quibusdam asperiores officia, in enim obcaecati
+          quisquam facilis sunt suscipit minus optio. Quidem corrupti id alias
+          dignissimos temporibus, minima cumque blanditiis hic magni nulla
+          debitis asperiores reprehenderit minus eveniet. Minima, aut sapiente
+          asperiores quo dicta commodi tenetur, iure laboriosam quia praesentium
+          excepturi, qui nemo totam ea ab fugiat eligendi saepe. Est magnam et
+          facilis fugiat quia eligendi nam, necessitatibus, minima blanditiis
+          laboriosam odio explicabo! Quod accusantium voluptas deserunt minus
+          minima voluptate totam aut quia cumque quaerat. Magni atque officia
+          exercitationem consequuntur nemo quia, eum similique aspernatur,
+          adipisci dolores suscipit quis alias. Amet ab in eius nostrum
+          doloribus optio at assumenda commodi aspernatur ipsam qui
+          exercitationem saepe ipsa, doloremque ad modi maiores. Earum unde
+          temporibus, tempora magnam nostrum, fugiat inventore quos sit porro
+          necessitatibus natus voluptatibus? Enim quaerat aut optio quos
+          molestias. Temporibus ipsa cupiditate at iste pariatur, nisi ducimus
+          expedita recusandae, dolores facere ipsum, ex eum perspiciatis nostrum
+          unde odit eligendi exercitationem nulla odio veritatis nobis? Suscipit
+          alias sed, eaque a esse ducimus. Reiciendis minima explicabo, cumque
+          aliquam architecto, mollitia quia doloremque molestias id accusamus
+          corporis in consequatur quis sed reprehenderit, fugiat vel eligendi
+          incidunt? Neque asperiores quia, saepe iste repellendus possimus
+          voluptas similique nisi labore ipsa sunt? Sint iure iste facere
+          quibusdam earum animi enim, quas, rerum similique optio recusandae,
+          labore molestias? Rerum saepe, suscipit eum quam quod itaque quae ea
+          eligendi exercitationem. Autem officiis quaerat enim delectus ipsam
+          corporis, odio, illum eius unde quidem obcaecati quae sint cupiditate.
+          Quod voluptas libero et laboriosam, officia, sunt excepturi in quia
+          voluptate unde mollitia distinctio omnis ea perspiciatis nesciunt sit
+          beatae numquam eveniet repellendus! Enim fugiat id libero unde cumque
+          odit perspiciatis suscipit, neque molestias veniam ipsam sapiente
+          perferendis sint! Accusantium non porro et, recusandae consectetur ad
+          nam?
+        </p>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="contact"
+        role="tabpanel"
+        aria-labelledby="contact-tab"
+      >
+        Don't contact us
+      </div>
+    </div>
+
+    <div class="footer">
+      <footer class="page-footer font-small stylish-color-dark pt-4">
+        <div class="container text-center text-md-left">
+          <div class="row">
+            <div class="col-md-4 mx-auto">
+              <h5
+                class="font-weight-bold text-uppercase mt-3 mb-4"
+                style="
+                  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',
+                    sans-serif;
+                "
+              >
+                Public Gallery
+              </h5>
+              <p>
+                Browse shots captured by people from around the world and share
+                your shots with the world too!
+              </p>
+            </div>
+
+            <hr class="clearfix w-100 d-md-none" />
+
+            <div class="col-md-2 mx-auto">
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+                Categories
+              </h5>
+
+              <ul class="list-unstyled footer-links">
+                <li>
+                  <a href="#!">Animals</a>
+                </li>
+                <li>
+                  <a href="#!">Nature</a>
+                </li>
+                <li>
+                  <a href="#!">People</a>
+                </li>
+                <li>
+                  <a href="#!">Places</a>
+                </li>
+              </ul>
+            </div>
+
+            <hr class="clearfix w-100 d-md-none" />
+
+            <div class="col-md-2 mx-auto">
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Explore</h5>
+
+              <ul class="list-unstyled footer-links">
+                <li>
+                  <a href="#!">New uploads</a>
+                </li>
+                <li>
+                  <a href="#!">Popular</a>
+                </li>
+                <li>
+                  <a href="#!">Wallpapers</a>
+                </li>
+                <li>
+                  <a href="#!">Discover</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <ul class="list-unstyled list-inline text-center py-2">
+          <li class="list-inline-item">
+            <h5 class="mb-1">Become a member</h5>
+          </li>
+          <li class="list-inline-item">
+            <a
+              href="#!"
+              class="btn btn-danger btn-rounded bg-dark text-light"
+              style="background-color: #053742; border: none"
+              >Sign up!</a
+            >
+          </li>
+        </ul>
+
+        <hr />
+
+        <ul class="list-unstyled list-inline text-center">
+          <li class="list-inline-item">
+            <a class="btn-floating btn-fb mx-1">
+              <i class="bi bi-instagram"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn-floating btn-tw mx-1">
+              <i class="bi bi-twitter"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn-floating btn-gplus mx-1">
+              <i class="bi bi-facebook"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn-floating btn-li mx-1">
+              <i class="bi bi-telegram"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn-floating btn-dribbble mx-1">
+              <i class="bi bi-whatsapp"> </i>
+            </a>
+          </li>
+        </ul>
+
+        <div class="footer-copyright text-center py-3">
+          © 2020 Copyright:
+          <a href="index.html">Public Gallery</a>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
